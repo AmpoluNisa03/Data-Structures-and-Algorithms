@@ -30,7 +30,7 @@ int main()
 	printf("Enter All the elements ");
 	for (i = 0; i < n; i++)
 		scanf_s("%d", &arr.A[i]); // enter the elements of an array 
-	arr.length = n; // set length as n 
+	arr.length = n; 
 
 
 	Display(arr);
