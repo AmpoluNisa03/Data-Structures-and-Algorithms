@@ -42,4 +42,3 @@ int main()
 	Display(arr);
 
 	return 0;
-}
