@@ -7,6 +7,7 @@ In this repostiory my work was done on data structures and algorithms which was 
 # Platform used for Code Practice
 * 1.HackerRank
 * 2.Codechef
+* 3.GeeksforGeeks
 # Online Learning Resources
 * 1.Udemy
 * 2.GeeksforGeeks
