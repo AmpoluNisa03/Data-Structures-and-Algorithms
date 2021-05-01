@@ -65,7 +65,7 @@ float Avg(struct Array arr)
 int main ()
 
 {
-	struct Array arr1={{1,3,5,6,77,9,22},20,7};
+	struct Array arr1={{1,3,5,6,77,8,9,22},20,7};
 	printf("The element at particular position is %d\n",Get(arr1,2)); // From This we will get the element at index 2
 	Set(&arr1,2,15); // This will set the index 0 element with 15
 	printf("Maximum in the array is : %d\n",Max(arr1)); // this will give the max value 
