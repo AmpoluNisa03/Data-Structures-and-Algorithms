@@ -99,6 +99,6 @@ int main() {
     cm.setColMajor(4, 4, 10);
  
     cm.Display(false);
- 
+
     return 0;
 }
