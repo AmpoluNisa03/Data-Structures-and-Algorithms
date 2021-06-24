@@ -100,7 +100,6 @@ int main()
 	display(s2);
 	printf("Sum Matrix\n");
 	display(*s3);
-
-
+	
 	return 0;
 }
