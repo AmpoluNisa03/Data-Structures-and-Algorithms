@@ -34,7 +34,6 @@ int main() {
         last->next = temp;
         last = temp;
     }
- 
     // Display Linked List
     Node* p = head;
  
