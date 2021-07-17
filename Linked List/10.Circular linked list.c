@@ -3,23 +3,23 @@
 struct Node
 {
 	int data;
-	struct Node* next;   // Self refrencial pointer
-}*Head; // global pointer we will use it in entire program
+	struct Node* next;  
+}*Head; 
 
 void Create(int A[], int n)
 {
-	int i; // creating a varible for iteration 
-	struct Node* t, * last; // t is for creating 1st node and last will always help in adding new noe at last 
-	Head = (struct Node*)malloc(sizeof(struct Node)); // allocating memory in heap // create 1st node and make head point on that node 
-	Head->data = A[0]; // passing data to 1st node 
-	Head->next = Head;// Head will point on head itself so that it can form a circular linked list 
+	int i;
+	struct Node* t, * last;
+	Head = (struct Node*)malloc(sizeof(struct Node)); 
+	Head->data = A[0]; 
+	Head->next = Head;
 	last = Head;
 
 	for (i = 1; i < n; i++)
 	{
-		t = (struct Node*)malloc(sizeof(struct Node)); // everytime we will create a new node with this 
-		t->data = A[i]; // everytime assigning data from the array to linkedlist 
-		t->next = last->next; // since it is circular so i acnnot use null here , this is linking new node next with last next (head)
+		t = (struct Node*)malloc(sizeof(struct Node)); 
+		t->data = A[i]; 
+		t->next = last->next; 
 		last->next = t; 
 		last = t;
 
@@ -27,7 +27,7 @@ void Create(int A[], int n)
 
 
 }
-void Display(struct Node* h) // This is for Displaying Normal 
+void Display(struct Node* h) 
 {
 	do
 	{
