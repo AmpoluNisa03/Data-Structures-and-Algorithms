@@ -61,9 +61,6 @@ void Removeduplicate(struct Node* p) // taking pointer to 1st node
 	}
 }
 
-
-
-
 int main()
 {
 	int A[] = {10,10,10,10,20,20,20,30,40,50 };
